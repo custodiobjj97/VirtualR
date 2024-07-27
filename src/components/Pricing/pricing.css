@@ -1,0 +1,24 @@
+.pricing{
+    padding: 200px 12px;
+}
+
+.pricing h2{
+    font-size: 2.66rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.pricing-grids{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+
+
+@media (min-width:1042px){
+    .pricing-grids{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

@@ -1,0 +1,51 @@
+.testimonials{
+    padding: 120px 12px;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-size: 2.66rem;
+    margin-bottom: var(--mg-bottom);
+    color: #fff;
+}
+
+.grids-testimonials{
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1rem;
+}
+
+
+.box-testimonials{
+    padding: 1rem;
+    border: var(--border-color) 2px solid;
+    background-color:var(--color-card);
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.box-testimonials img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.color-box{
+    color: gray;
+    font-weight: normal;
+}
+
+@media (min-width:1042px){
+    .grids-testimonials{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

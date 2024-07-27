@@ -1,0 +1,33 @@
+footer{
+ padding:120px 12px;
+ max-width: 1500px;
+ margin: auto;
+ border-top: 2px solid #000;
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1.7rem;
+ align-items: center;
+}
+
+footer h3{
+    color: #fff;
+    text-align: left;
+}
+
+.list-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem
+}
+
+.list-footer li a{
+    color: #000;
+}
+
+
+@media (min-width:1042px){
+    footer{
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+    }
+}
